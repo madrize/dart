@@ -1,0 +1,15 @@
+How to install
+--------------
+go to the folder which has the 'setup.py' file and run this command
+
+	- python setup.py install
+
+after that, add the following line to your project's urls.py file
+
+	- url(r'^articles/',include(articles.urls)),
+
+edit your settings by, add the following line to INSTALLED_APPS
+
+	- 'articles',
+
+and finally,create the template files for the app
